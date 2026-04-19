@@ -8,8 +8,8 @@ local mb = require("libmodbus")
 
 -- ===== CONFIG =====
 local MODBUS_HOST = "127.0.0.1"   -- try localhost first when script runs on X300
-local MODBUS_PORT = 502           -- change if you configured a different TCP port
-local SLAVE_ID    = 1             -- battery Modbus address
+local MODBUS_PORT = 1502          -- change if you configured a different TCP port
+local SLAVE_ID    = 2             -- battery Modbus address
 
 -- Adjust these to match your battery map
 local REG_START   = 0x1000
